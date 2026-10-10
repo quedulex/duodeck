@@ -11,11 +11,11 @@
 
 [快速开始](#快速开始) · [功能](#功能) · [配置](#配置) · [参与贡献](CONTRIBUTING.md) · [版本发布](https://github.com/quedulex/duodeck/releases)
 
-![DuoDeck 在 ASUS 双屏笔记本上的真实效果：工作区预览、桌面控制和彩色便签](preview.jpg)
+![DuoDeck 动态演示：应用菜单、本地便签、拖动卡片和可选 ASUS 跨屏功能](docs/videos/duodeck-demo.gif)
 
-*由所有者提供的实机照片。*
+*29 秒循环动图，直接在本页展示。跨屏展开需要单独配置的 ASUS 适配器。*
 
-**[▶ 观看／下载 29 秒操作视频](docs/videos/duodeck-demo.mp4)** · [中英文截图画廊](docs/MEDIA.md)
+**[高清 MP4 视频](docs/videos/duodeck-demo.mp4)** · [中英文截图画廊](docs/MEDIA.md)
 
 ## 为什么使用 DuoDeck？
 

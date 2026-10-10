@@ -11,11 +11,11 @@
 
 [Quick start](#quick-start) · [Features](#features) · [Configuration](#configuration) · [Contribute](CONTRIBUTING.md) · [Releases](https://github.com/quedulex/duodeck/releases)
 
-![DuoDeck on an ASUS dual-screen laptop, with workspace previews, desktop controls and colorful memos](preview.jpg)
+![DuoDeck demo: app launcher, local memos, dragging cards and optional ASUS spanning](docs/videos/duodeck-demo.gif)
 
-*Real hardware photograph supplied by the owner.*
+*29-second looping demo, shown directly in this README. Cross-screen spanning requires a separately configured ASUS adapter.*
 
-**[▶ Watch / download the 29-second demo](docs/videos/duodeck-demo.mp4)** · [English / Chinese screenshot gallery](docs/MEDIA.md)
+**[Full-quality MP4](docs/videos/duodeck-demo.mp4)** · [English / Chinese screenshot gallery](docs/MEDIA.md)
 
 ## Why DuoDeck?
 

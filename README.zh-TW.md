@@ -11,11 +11,11 @@
 
 [快速開始](#快速開始) · [功能](#功能) · [設定](#設定) · [參與貢獻](CONTRIBUTING.md) · [版本發佈](https://github.com/quedulex/duodeck/releases)
 
-![DuoDeck 在 ASUS 雙螢幕筆電上的實際效果：工作區預覽、桌面控制與彩色便箋](preview.jpg)
+![DuoDeck 動態示範：應用程式選單、本機便箋、拖曳卡片與選用 ASUS 跨螢幕功能](docs/videos/duodeck-demo.gif)
 
-*由所有者提供的實機照片。*
+*29 秒循環動圖，直接在本頁顯示。跨螢幕展開需要另外設定的 ASUS 適配器。*
 
-**[▶ 觀看／下載 29 秒操作影片](docs/videos/duodeck-demo.mp4)** · [中英文截圖畫廊](docs/MEDIA.md)
+**[高畫質 MP4 影片](docs/videos/duodeck-demo.mp4)** · [中英文截圖畫廊](docs/MEDIA.md)
 
 ## 為什麼使用 DuoDeck？
 
