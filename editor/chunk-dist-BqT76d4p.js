@@ -1,0 +1,1 @@
+import{L as e,N as t}from"./chunk-vendor-DiFyNYgr.js";e();export{t as html};

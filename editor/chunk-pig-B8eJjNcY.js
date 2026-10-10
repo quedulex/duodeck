@@ -1,0 +1,1 @@
+import{h as e,m as t}from"./chunk-vendor-va8zZFUr.js";t();export{e as pig};

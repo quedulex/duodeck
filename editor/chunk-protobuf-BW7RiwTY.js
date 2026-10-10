@@ -1,0 +1,1 @@
+import{c as e,l as t}from"./chunk-vendor-va8zZFUr.js";e();export{t as protobuf};

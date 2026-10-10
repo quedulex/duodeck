@@ -1,0 +1,1 @@
+import{A as e,k as t}from"./chunk-vendor-DRktOIAG.js";e();export{t as asterisk};

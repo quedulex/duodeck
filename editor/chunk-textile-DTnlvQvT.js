@@ -1,0 +1,1 @@
+import{N as e,P as t}from"./chunk-vendor-fU1ulC43.js";e();export{t as textile};

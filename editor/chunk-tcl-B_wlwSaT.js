@@ -1,0 +1,1 @@
+import{F as e,I as t}from"./chunk-vendor-fU1ulC43.js";e();export{t as tcl};

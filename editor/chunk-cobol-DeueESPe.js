@@ -1,0 +1,1 @@
+import{f as e,p as t}from"./chunk-vendor-DRktOIAG.js";t();export{e as cobol};

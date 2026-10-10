@@ -1,0 +1,1 @@
+import{I as e,R as t}from"./chunk-vendor-CWDwPjT-.js";e();export{t as python};

@@ -1,0 +1,1 @@
+import{b as e,x as t}from"./chunk-vendor-BWmP3M9b.js";e();export{t as shell};

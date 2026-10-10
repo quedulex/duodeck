@@ -1,0 +1,1 @@
+import{r as e,t}from"./chunk-vendor-CxbSVct8.js";t();export{e as jsonld};

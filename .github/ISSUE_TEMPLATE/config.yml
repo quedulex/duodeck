@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security / 安全问题
+    url: https://github.com/quedulex/duodeck/security/advisories/new
+    about: Use private vulnerability reporting; do not post tokens or private data.

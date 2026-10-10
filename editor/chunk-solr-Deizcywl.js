@@ -1,0 +1,1 @@
+import{h as e,m as t}from"./chunk-vendor-BWmP3M9b.js";t();export{e as solr};

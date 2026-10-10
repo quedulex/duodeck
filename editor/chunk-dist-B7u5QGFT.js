@@ -1,0 +1,1 @@
+import{G as e,J as t}from"./chunk-vendor-CWDwPjT-.js";e();export{t as markdown};

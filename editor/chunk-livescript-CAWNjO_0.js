@@ -1,0 +1,1 @@
+import{X as e,Z as t}from"./chunk-vendor-va8zZFUr.js";e();export{t as liveScript};

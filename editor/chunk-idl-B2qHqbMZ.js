@@ -1,0 +1,1 @@
+import{a as e,i as t}from"./chunk-vendor-CxbSVct8.js";e();export{t as idl};

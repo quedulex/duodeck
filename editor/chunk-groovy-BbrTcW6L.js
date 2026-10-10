@@ -1,0 +1,1 @@
+import{c as e,l as t}from"./chunk-vendor-CMvJ-3GB.js";t();export{e as groovy};

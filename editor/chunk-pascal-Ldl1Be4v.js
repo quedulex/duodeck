@@ -1,0 +1,1 @@
+import{v as e,y as t}from"./chunk-vendor-va8zZFUr.js";e();export{t as pascal};

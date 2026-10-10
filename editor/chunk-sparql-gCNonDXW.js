@@ -1,0 +1,1 @@
+import{f as e,p as t}from"./chunk-vendor-BWmP3M9b.js";e();export{t as sparql};

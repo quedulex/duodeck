@@ -1,0 +1,1 @@
+import{C as e,w as t}from"./chunk-vendor-fU1ulC43.js";e();export{t as ttcnCfg};

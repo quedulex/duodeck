@@ -1,0 +1,1 @@
+import{_ as e,g as t}from"./chunk-vendor-CMvJ-3GB.js";e();export{t as forth};

@@ -1,0 +1,1 @@
+import{n as e}from"./chunk-rolldown-runtime-8BhlS34s.js";function t(e){return e.nodeType===1}function n(e){return t(e)&&e.namespaceURI===`http://www.w3.org/1999/xhtml`}var r=e((()=>{}));export{n,r as t};
