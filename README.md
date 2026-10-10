@@ -11,6 +11,8 @@
 
 [Quick start](#quick-start) · [Features](#features) · [Configuration](#configuration) · [Contribute](CONTRIBUTING.md) · [Releases](https://github.com/quedulex/duodeck/releases)
 
+**Now listed on [Omarchy Plugins](https://plugins.omarchy.org/plugin.html?id=quedulex.duodeck).** DuoDeck 0.1.4 is available as a preview; see the marketplace page for the listing and installation command.
+
 ![DuoDeck demo: app launcher, local memos, dragging cards and optional ASUS spanning](docs/videos/duodeck-demo.gif)
 
 *29-second looping demo, shown directly in this README. Cross-screen spanning requires a separately configured ASUS adapter.*
@@ -61,8 +63,10 @@ DuoDeck does not install these packages automatically. Missing sensors display a
 
 ### Install and enable
 
+Open the [DuoDeck marketplace page](https://plugins.omarchy.org/plugin.html?id=quedulex.duodeck), copy its installation command, or run it below in your Omarchy terminal. Confirm the requirements above before enabling the plugin.
+
 ```sh
-omarchy plugin add https://github.com/quedulex/duodeck --enable
+omarchy plugin add https://github.com/quedulex/duodeck.git --enable
 ```
 
 Enable only one copy. If an earlier development version is active, find its ID with `omarchy plugin list` and disable it first. If you used the standalone `touch-console.service`, stop that service before enabling DuoDeck. Installation does not stop services or rewrite desktop configuration for you.
@@ -114,7 +118,9 @@ Monitor layouts and key bindings are not changed automatically. An optional span
 
 Development testing used **ASUS UX482**, Omarchy **4.0.4-1** and Hyprland **0.56.2**. The official plugin validator, isolated Python regressions, Qt Quick input fixture and Chromium editor fixture passed. CI rebuilds the editor and runs backend/storage tests; its Ubuntu runner skips the Qt fixture when Qt Quick Test is unavailable.
 
-The published preview has not completed native desktop acceptance. Other hardware and compositor versions need verification. Marketplace submission and maintainer approval are pending; publishing a repository does not imply marketplace approval.
+DuoDeck is [approved and listed on Omarchy Plugins](https://github.com/omacom/omarchy-plugin-marketplace/issues/10956#issuecomment-6102542812). The initial marketplace snapshot is [0.1.4 at `6708000`](https://github.com/quedulex/duodeck/commit/670800059c63f914c8593e26d7cfff73693ae8a3). Marketplace verification applies to that exact commit; the installation command fetches the current upstream branch. Later commits require their own marketplace update verification.
+
+The published preview has not completed native desktop acceptance. Other hardware and compositor versions need verification.
 
 ## Help improve DuoDeck
 
