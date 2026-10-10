@@ -11,7 +11,7 @@
 
 [Quick start](#quick-start) · [Features](#features) · [Configuration](#configuration) · [Contribute](CONTRIBUTING.md) · [Releases](https://github.com/quedulex/duodeck/releases)
 
-![DuoDeck on an ASUS dual-screen laptop, with workspace previews, desktop controls and colorful memos](docs/photos/markdown-memos.jpg)
+![DuoDeck on an ASUS dual-screen laptop, with workspace previews, desktop controls and colorful memos](preview.jpg)
 
 *Real hardware photograph supplied by the owner.*
 

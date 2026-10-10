@@ -16,7 +16,7 @@ Photographs supplied by the owner. JPEG metadata was removed without modifying c
 
 ### Memos and desktop controls / 便签与桌面控制
 
-![Local memos and dock on the lower display](photos/markdown-memos.jpg)
+![Local memos and dock on the lower display](../preview.jpg)
 
 ### Expanded app launcher / 展开的应用菜单
 

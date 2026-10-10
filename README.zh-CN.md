@@ -11,7 +11,7 @@
 
 [快速开始](#快速开始) · [功能](#功能) · [配置](#配置) · [参与贡献](CONTRIBUTING.md) · [版本发布](https://github.com/quedulex/duodeck/releases)
 
-![DuoDeck 在 ASUS 双屏笔记本上的真实效果：工作区预览、桌面控制和彩色便签](docs/photos/markdown-memos.jpg)
+![DuoDeck 在 ASUS 双屏笔记本上的真实效果：工作区预览、桌面控制和彩色便签](preview.jpg)
 
 *由所有者提供的实机照片。*
 
