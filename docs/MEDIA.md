@@ -1,5 +1,9 @@
 # DuoDeck in action / 实际效果 / 實際效果
 
+![DuoDeck looping demo / 循环动图](videos/duodeck-demo.gif)
+
+29-second looping GIF, embedded in all three READMEs. The full-quality MP4 remains available below.
+
 [English README](../README.md) · [简体中文](../README.zh-CN.md) · [繁體中文](../README.zh-TW.md)
 
 ## Demo video / 操作视频 / 操作影片
