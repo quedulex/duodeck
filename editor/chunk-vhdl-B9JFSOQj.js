@@ -1,0 +1,1 @@
+import{l as e,u as t}from"./chunk-vendor-fU1ulC43.js";e();export{t as vhdl};

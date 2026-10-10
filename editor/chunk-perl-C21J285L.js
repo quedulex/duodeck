@@ -1,0 +1,1 @@
+import{_ as e,g as t}from"./chunk-vendor-va8zZFUr.js";t();export{e as perl};

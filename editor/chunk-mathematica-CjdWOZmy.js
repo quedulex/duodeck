@@ -1,0 +1,1 @@
+import{K as e,q as t}from"./chunk-vendor-va8zZFUr.js";e();export{t as mathematica};

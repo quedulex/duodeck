@@ -1,0 +1,1 @@
+import{f as e,p as t}from"./chunk-vendor-CMvJ-3GB.js";t();export{e as gas};

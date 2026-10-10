@@ -1,0 +1,1 @@
+import{h as e,m as t}from"./chunk-vendor-CMvJ-3GB.js";e();export{t as fortran};

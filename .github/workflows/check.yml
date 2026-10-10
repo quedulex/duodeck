@@ -1,0 +1,29 @@
+name: Check plugin
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  python-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - name: Backend and storage regressions
+        env:
+          XDG_STATE_HOME: ${{ runner.temp }}/duodeck-state
+          XDG_RUNTIME_DIR: ${{ runner.temp }}/duodeck-runtime
+        run: python3 -m unittest discover -s tests -v
+  editor-build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: '24'
+      - name: Build editor in an isolated directory
+        run: |
+          cp -R editor "$RUNNER_TEMP/duodeck-editor"
+          cd "$RUNNER_TEMP/duodeck-editor"
+          npm ci --no-audit --no-fund
+          npm run build

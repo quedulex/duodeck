@@ -1,0 +1,1 @@
+import{D as e,O as t}from"./chunk-vendor-DRktOIAG.js";t();export{e as brainfuck};

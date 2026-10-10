@@ -1,0 +1,1 @@
+import{v as e,y as t}from"./chunk-vendor-DiFyNYgr.js";e();export{t as java};

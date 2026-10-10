@@ -1,0 +1,1 @@
+import{M as e,N as t}from"./chunk-vendor-CWDwPjT-.js";e();export{t as rust};

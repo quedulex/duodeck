@@ -1,0 +1,1 @@
+import{b as e,y as t}from"./chunk-vendor-fU1ulC43.js";t();export{e as turtle};

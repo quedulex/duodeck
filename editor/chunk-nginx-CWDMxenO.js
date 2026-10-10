@@ -1,0 +1,1 @@
+import{O as e,k as t}from"./chunk-vendor-va8zZFUr.js";e();export{t as nginx};

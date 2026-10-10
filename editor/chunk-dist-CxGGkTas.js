@@ -1,0 +1,1 @@
+import{o as e,s as t}from"./chunk-vendor-DiFyNYgr.js";e();export{t as less};

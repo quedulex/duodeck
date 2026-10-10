@@ -1,0 +1,1 @@
+import{C as e,x as t}from"./chunk-vendor-DiFyNYgr.js";e();export{t as go};

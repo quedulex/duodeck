@@ -1,0 +1,1 @@
+import{I as e,L as t}from"./chunk-vendor-va8zZFUr.js";e();export{t as modelica};

@@ -1,0 +1,1 @@
+import{B as e,z as t}from"./chunk-vendor-DiFyNYgr.js";t();export{e as javascript};

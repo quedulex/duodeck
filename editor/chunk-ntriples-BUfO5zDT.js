@@ -1,0 +1,1 @@
+import{T as e,w as t}from"./chunk-vendor-va8zZFUr.js";t();export{e as ntriples};

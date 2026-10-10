@@ -1,0 +1,1 @@
+import{O as e,k as t}from"./chunk-vendor-CWDwPjT-.js";e();export{t as sass};

@@ -1,0 +1,21 @@
+{
+  "name": "touch-console-memo-editor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "vite build && node check-dist.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "@milkdown/crepe": "^7.22.3",
+    "esbuild": "^0.28.2"
+  },
+  "private": true,
+  "devDependencies": {
+    "vite": "^8.3.4"
+  }
+}

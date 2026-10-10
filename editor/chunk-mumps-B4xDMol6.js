@@ -1,0 +1,1 @@
+import{A as e,j as t}from"./chunk-vendor-va8zZFUr.js";e();export{t as mumps};

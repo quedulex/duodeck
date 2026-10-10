@@ -1,0 +1,1 @@
+import{j as e,k as t}from"./chunk-vendor-DiFyNYgr.js";e();export{t as angular};

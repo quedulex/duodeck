@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="510" viewBox="0 0 1200 510" role="img" aria-labelledby="title description">
+  <title id="title">DuoDeck feature overview</title>
+  <desc id="description">A feature illustration showing workspace previews, desktop controls and local Markdown memos. This is not a screenshot.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#111c28"/><stop offset="1" stop-color="#172f37"/></linearGradient>
+  </defs>
+  <rect width="1200" height="510" rx="28" fill="url(#bg)"/>
+  <g font-family="system-ui, sans-serif">
+    <text x="58" y="77" fill="#f7f8f5" font-size="42" font-weight="700">DuoDeck</text>
+    <text x="58" y="114" fill="#b9cbd0" font-size="20">One dock. Workspaces, controls and local memos.</text>
+    <text x="1000" y="77" fill="#b9cbd0" font-size="16">OMARCHY</text>
+    <g transform="translate(58 155)">
+      <rect width="336" height="226" rx="18" fill="#203644" stroke="#365260"/>
+      <text x="25" y="39" fill="#f7f8f5" font-size="22" font-weight="600">Workspaces</text>
+      <g fill="#2e4c5a" stroke="#537583">
+        <rect x="25" y="65" width="132" height="85" rx="9"/>
+        <rect x="177" y="65" width="132" height="85" rx="9"/>
+      </g>
+      <g fill="#acdcd6"><rect x="36" y="77" width="53" height="59" rx="4"/><rect x="99" y="77" width="46" height="26" rx="4"/><rect x="99" y="112" width="46" height="24" rx="4"/><rect x="188" y="77" width="110" height="59" rx="4"/></g>
+      <text x="25" y="190" fill="#bed0d6" font-size="18">Preview · Switch · Launch</text>
+    </g>
+    <g transform="translate(432 155)">
+      <rect width="336" height="226" rx="18" fill="#203644" stroke="#365260"/>
+      <text x="25" y="39" fill="#f7f8f5" font-size="22" font-weight="600">Desktop controls</text>
+      <text x="25" y="83" fill="#bed0d6" font-size="17">Volume</text>
+      <rect x="111" y="70" width="198" height="9" rx="4" fill="#365260"/><rect x="111" y="70" width="137" height="9" rx="4" fill="#91d4c7"/>
+      <text x="25" y="127" fill="#bed0d6" font-size="17">Brightness</text>
+      <rect x="111" y="114" width="198" height="9" rx="4" fill="#365260"/><rect x="111" y="114" width="167" height="9" rx="4" fill="#91d4c7"/>
+      <text x="25" y="190" fill="#bed0d6" font-size="18">Media · Power · System status</text>
+    </g>
+    <g transform="translate(806 155)">
+      <rect width="336" height="226" rx="18" fill="#b9d5c3"/>
+      <text x="25" y="39" fill="#183d36" font-size="22" font-weight="600">Local Markdown memos</text>
+      <text x="25" y="88" fill="#183d36" font-size="20" font-weight="600"># A note to yourself</text>
+      <text x="25" y="128" fill="#31594d" font-size="18">Write it. Keep it on your device.</text>
+      <text x="25" y="190" fill="#31594d" font-size="18">Save · Archive · Export</text>
+    </g>
+    <text x="58" y="438" fill="#e1ebe7" font-size="20">English · 简体中文 · 繁體中文</text>
+    <text x="58" y="474" fill="#9eb8c0" font-size="16">FEATURE ILLUSTRATION · PREVIEW · MIT</text>
+  </g>
+</svg>
