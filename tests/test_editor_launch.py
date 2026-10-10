@@ -54,6 +54,7 @@ class EditorLaunchTest(unittest.TestCase):
                 url = f'http://127.0.0.1:{server.server_port}/test-token/index.html?lang=en'
                 bootstrap = create_bootstrap(runtime, url)
                 command = [browser, '--headless=new', '--no-sandbox', '--disable-gpu',
+                           '--virtual-time-budget=2000',
                            '--user-data-dir=' + str(profile), '--dump-dom', bootstrap.as_uri()]
                 self.assertFalse(any('test-token' in arg for arg in command))
                 result = subprocess.run(command, text=True, capture_output=True, timeout=25)
