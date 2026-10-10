@@ -11,6 +11,8 @@
 
 [快速开始](#快速开始) · [功能](#功能) · [配置](#配置) · [参与贡献](CONTRIBUTING.md) · [版本发布](https://github.com/quedulex/duodeck/releases)
 
+**DuoDeck 已上架 [Omarchy 插件市场](https://plugins.omarchy.org/plugin.html?id=quedulex.duodeck)。** 当前提供 0.1.4 预览版，市场页面可查看插件信息并复制安装命令。
+
 ![DuoDeck 动态演示：应用菜单、本地便签、拖动卡片和可选 ASUS 跨屏功能](docs/videos/duodeck-demo.gif)
 
 *29 秒循环动图，直接在本页展示。跨屏展开需要单独配置的 ASUS 适配器。*
@@ -61,8 +63,10 @@ DuoDeck 是原生 **Omarchy Quattro 服务插件**。Dock 运行在现有 Shell 
 
 ### 安装并启用
 
+打开 [DuoDeck 市场页面](https://plugins.omarchy.org/plugin.html?id=quedulex.duodeck)复制安装命令，或在 Omarchy 终端执行下面的命令。启用前请确认满足上述环境要求。
+
 ```sh
-omarchy plugin add https://github.com/quedulex/duodeck --enable
+omarchy plugin add https://github.com/quedulex/duodeck.git --enable
 ```
 
 只启用一个实例。已有开发版正在运行时，先用 `omarchy plugin list` 找到它的 ID 并停用。如果使用过独立的 `touch-console.service`，请先停止该服务。安装过程不会自动停止其他服务或改写桌面配置。
@@ -114,7 +118,9 @@ omarchy plugin remove quedulex.duodeck
 
 开发测试使用 **ASUS UX482**、Omarchy **4.0.4-1**、Hyprland **0.56.2**。正式插件校验、隔离的 Python 回归、Qt Quick 输入测试与 Chromium 编辑器测试已通过。CI 会重新构建编辑器并运行后端和存储测试；Ubuntu Runner 缺少 Qt Quick Test 时会跳过对应测试。
 
-发布预览版尚未完成原生桌面交互验收。其他硬件与合成器版本仍需验证。市场提交和维护者批准尚未完成；仓库公开不等于已被市场收录。
+DuoDeck 已[获批准并被 Omarchy 插件市场收录](https://github.com/omacom/omarchy-plugin-marketplace/issues/10956#issuecomment-6102542812)。首次收录的市场快照为 [0.1.4 / `6708000`](https://github.com/quedulex/duodeck/commit/670800059c63f914c8593e26d7cfff73693ae8a3)。市场验证针对该具体提交；安装命令会获取上游当前分支，后续提交需要单独进行市场更新验证。
+
+发布预览版尚未完成原生桌面交互验收。其他硬件与合成器版本仍需验证。
 
 ## 支持与参与
 
