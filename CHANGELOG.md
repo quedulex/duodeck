@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.4 (2026-10-11) — preview
+
+- Keep the memo bearer URL out of Chromium process arguments; launch through a private 0600 bootstrap file inside a 0700 runtime directory.
+- Restrict the editor profile and launch lock to their owner, and suppress outgoing URL referrers.
+- Add process-argument privacy tests and a Chromium bootstrap-navigation regression. Close existing memo windows before upgrading, then reopen them to use the new launch path.
+
 ## 0.1.3 (2026-10-11) — preview
 
 - Restrict local preferences, app activity history, memos and lock files to their owner (directory 0700, files 0600).
