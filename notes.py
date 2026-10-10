@@ -1,12 +1,15 @@
 """User-authored sticky notes; local-only, locked atomic storage."""
 import os, json, sys, uuid, fcntl, tempfile
 from pathlib import Path
+from private_storage import private_directory, private_open
 base=Path(os.environ.get("XDG_STATE_HOME",Path.home()/".local/state"))/"touch-console"
-base.mkdir(parents=True,exist_ok=True)
-with (base/"notes.lock").open("a") as lock:
+private_directory(base)
+with private_open(base/"notes.lock", "a") as lock:
     fcntl.flock(lock,fcntl.LOCK_EX)
     path=base/"notes.json"
-    data=json.loads(path.read_text()) if path.exists() else []
+    try:
+        with private_open(path, "r") as source: data=json.load(source)
+    except FileNotFoundError: data=[]
     req=json.loads(sys.stdin.readline())
     op=req.get("op","read")
     if op=="add":

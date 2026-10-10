@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.3 (2026-10-11) — preview
+
+- Restrict local preferences, app activity history, memos and lock files to their owner (directory 0700, files 0600).
+- Repair earlier permissions on access without changing saved content; reject symlinked state files.
+- Add filesystem regression tests under umask 022, including legacy permission migration.
+
 ## 0.1.2 (2026-10-11) — preview
 
 - Correct the marketplace author to `jasoncym` and simplify publication documentation.

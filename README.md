@@ -21,7 +21,7 @@
 
 Keep useful desktop actions within reach on a wide touch display or a laptop's second screen. Switch workspaces, open recent apps, adjust sound and brightness, and jot down a memo without assembling separate desktop widgets.
 
-DuoDeck is a native **Omarchy Quattro service plugin**. The dock runs inside the existing shell; the memo editor opens in a dedicated Chromium app window. Version **0.1.2 is a preview**, designed for displays about **1100 logical pixels or wider**.
+DuoDeck is a native **Omarchy Quattro service plugin**. The dock runs inside the existing shell; the memo editor opens in a dedicated Chromium app window. Version **0.1.3 is a preview**, designed for displays about **1100 logical pixels or wider**.
 
 ## Features
 
@@ -98,6 +98,8 @@ Copy `settings.example.json` to `~/.config/touch-console/settings.json`. Setting
 Monitor layouts and key bindings are not changed automatically. An optional spanning adapter only runs argv commands you explicitly configure. See [configuration and usage details](docs/REFERENCE.md).
 
 ## Local data and privacy
+
+- Local state directories use owner-only permissions (`0700`), and preferences, memos and locks use `0600`. Earlier permissions are repaired when the data is accessed, preserving its content.
 
 - Notes: `~/.local/state/touch-console/notes.json`.
 - Language and recent-app IDs: `~/.local/state/touch-console/preferences.json`.
