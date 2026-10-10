@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "quedulex.duodeck",
   "name": "DuoDeck",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "author": "jasoncym",
   "license": "MIT",
   "description": "A touch-friendly Omarchy dock with workspace previews, local app launcher, system and media controls, and offline Markdown memos.",
